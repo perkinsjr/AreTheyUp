@@ -1,0 +1,44 @@
+{
+  "name": "aretheyup",
+  "version": "1.0.0",
+  "description": "Are They Up, is a site checker cli to check if a site is up.",
+  "scripts": {
+    "test": "ava"
+  },
+  "bin": {
+    "aretheyup": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perkinsjr/AreTheyUp.git"
+  },
+  "keywords": [
+    "website",
+    "check",
+    "is",
+    "it",
+    "up",
+    "node",
+    "cli",
+    "server",
+    "check"
+  ],
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "author": "James Perkins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/perkinsjr/AreTheyUp/issues"
+  },
+  "homepage": "https://github.com/perkinsjr/AreTheyUp#readme",
+  "devDependencies": {
+    "ava": "^1.2.1"
+  },
+  "dependencies": {
+    "got": "^9.6.0",
+    "log-symbols": "^2.2.0",
+    "meow": "^5.0.0"
+  }
+}
