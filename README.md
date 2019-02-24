@@ -15,7 +15,8 @@ Want to use it in your node app?
     npm install aretheyup 
 
 ## How to Use?
-    ![image](example.png)
+![image](https://raw.githubusercontent.com/perkinsjr/AreTheyUp/master/example.png)
+
 
 ## Have an issue?
 
