@@ -9,7 +9,7 @@ const cli = meow(`
 	Example
         $ aretheyup netflix.com
         $ Are they up?
-		${logSymbols.success} Up
+		${logSymbols.success} Yup
 `);
 
 if (cli.input.length === 0) {
