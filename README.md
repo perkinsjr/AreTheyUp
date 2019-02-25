@@ -15,7 +15,7 @@ Want to use it in your node app?
     npm install aretheyup 
 
 ## How to Use?
-![image](https://raw.githubusercontent.com/perkinsjr/AreTheyUp/master/example.png)
+![image](https://github.com/perkinsjr/AreTheyUp/blob/development/example.png)
 
 
 <a href="https://www.patreon.com/james_perkins">
