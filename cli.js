@@ -18,7 +18,12 @@ if (cli.input.length === 0) {
 } 
 
 m(cli.input[0]).then(up => {
-    console.log('Are they up? \n')
-	console.log(up ? `${logSymbols.success} Yup` : `${logSymbols.error} Nope`);
+	console.log('Are they up? \n')
+	console.log(up['status_code'] == 1 ? `${logSymbols.success} Yup`  : `${logSymbols.error} Nope`);
+	console.log('Domain: ' + up['domain']);
+	console.log('Port: ' + up['port']);
+	console.log('Response IP: ' + up['response_ip']);
+	console.log('Response Time: ' + up['response_time']);
+	console.log('Response Code: ' + up['response_code']);
 	process.exit(up ? 0 : 2);
 });

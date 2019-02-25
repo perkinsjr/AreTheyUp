@@ -10,9 +10,10 @@ module.exports = url => {
 		}
 	}).then(res => {
 		if (res.body.status_code === 3) {
-			throw new Error('Check the domain, it seems to be invalid');
+			return 'Check the domain, it seems to be invalid';
 		}
-
-		return res.body.status_code === 1;
-	});
+			return res.body
+		}
+		
+	);
 };
