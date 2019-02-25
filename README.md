@@ -18,6 +18,11 @@ Want to use it in your node app?
 ![image](https://raw.githubusercontent.com/perkinsjr/AreTheyUp/master/example.png)
 
 
+<a href="https://www.patreon.com/james_perkins">
+	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
+
+
 ## Have an issue?
 
 Create an issue on the github and I will take care of it
