@@ -16,8 +16,13 @@ Want to use it in your node app?
 
 ## How to Use?
 	aretheyup google.com
-
-![image](https://github.com/perkinsjr/AreTheyUp/blob/development/example.png)
+    Are they up?
+    √ Yup
+    Domain: google.com
+    Port: 80
+    Response IP: 216.58.201.46
+    Response Time: 0.006
+    Response Code: 301
 
 
 <a href="https://www.patreon.com/james_perkins">
