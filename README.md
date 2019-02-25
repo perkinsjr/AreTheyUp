@@ -15,6 +15,8 @@ Want to use it in your node app?
     npm install aretheyup 
 
 ## How to Use?
+	aretheyup google.com
+
 ![image](https://github.com/perkinsjr/AreTheyUp/blob/development/example.png)
 
 
