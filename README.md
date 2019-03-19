@@ -1,3 +1,10 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/cd3bddb3cbb64f589aace76ebe5df2e5)](https://www.codacy.com/app/james.r.perkins/AreTheyUp?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=perkinsjr/AreTheyUp&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://travis-ci.com/perkinsjr/aretheyup.svg?branch=master)](https://travis-ci.com/perkinsjr/aretheyup)
+[![tippin.me](https://badgen.net/badge/%E2%9A%A1%EF%B8%8Ftippin.me/@james_r_perkins/F0918E)](https://tippin.me/@james_r_perkins)
+[![Donate.Paypal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/jamesperkinsOSS)
+[![Donate.Coffee](https://img.shields.io/badge/Donate-BuyMeCoffee-red.svg)](https://www.buymeacoffee.com/Of6xAMjSK)
+[![Donate.Patreon](https://img.shields.io/badge/Donate-Patreon-orange.svg)](https://www.patreon.com/james_perkins)
+
 # Are They Up ?
 
 ## What is Are They up?
@@ -21,14 +28,8 @@ Want to use it in your node app?
     Domain: google.com
     Port: 80
     Response IP: 216.58.201.46
-    Response Time: 0.006
+    Response Time: 6 Miliseconds
     Response Code: 301
-
-
-<a href="https://www.patreon.com/james_perkins">
-	<img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
-
 
 ## Have an issue?
 
