@@ -17,8 +17,8 @@ if (cli.input.length === 0) {
 	process.exit(1);
 } 
 
-m(cli.input[0]).then(up => {
-	console.log("Are they up? \n")
+m(cli.input[0]).then((up) => {
+	console.log("Are they up? \n");
 	console.log(up["status_code"] === 1 ? `${logSymbols.success} Yup`  : `${logSymbols.error} Nope`);
 	console.log("Domain: " + up["domain"]);
 	console.log("Port: " + up["port"]);
