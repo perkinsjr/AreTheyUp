@@ -1,40 +1,65 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/cd3bddb3cbb64f589aace76ebe5df2e5)](https://www.codacy.com/app/james.r.perkins/AreTheyUp?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=perkinsjr/AreTheyUp&amp;utm_campaign=Badge_Grade)
-[![Build Status](https://travis-ci.com/perkinsjr/AreTheyUp.svg?branch=master)](https://travis-ci.com/perkinsjr/AreTheyUp)
-[![tippin.me](https://badgen.net/badge/%E2%9A%A1%EF%B8%8Ftippin.me/@james_r_perkins/F0918E)](https://tippin.me/@james_r_perkins)
-[![Donate.Paypal](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/jamesperkinsOSS)
-[![Donate.Coffee](https://img.shields.io/badge/Donate-BuyMeCoffee-red.svg)](https://www.buymeacoffee.com/Of6xAMjSK)
-[![Donate.Patreon](https://img.shields.io/badge/Donate-Patreon-orange.svg)](https://www.patreon.com/james_perkins)
+<h1 align="center">Welcome to aretheyup 👋</h1>
+<p>
+  <img src="https://img.shields.io/badge/version-1.3.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/perkinsjr/AreTheyUp#readme">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/perkinsjr/AreTheyUp/graphs/commit-activity">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" target="_blank" />
+  </a>
+  <a href="https://github.com/perkinsjr/AreTheyUp/blob/master/LICENSE">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
+  </a>
+  <a href="https://twitter.com/james_r_perkins">
+    <img alt="Twitter: james_r_perkins" src="https://img.shields.io/twitter/follow/james_r_perkins.svg?style=social" target="_blank" />
+  </a>
+</p>
 
-# Are They Up ?
+> Check if a site is up via a cli 
 
-## What is Are They up?
+### 🏠 [Homepage](https://github.com/perkinsjr/AreTheyUp#readme)
 
-Are they up is a simple lightweight node cli that checks to see if a site is up!
+## Install
 
-## How to install?
+```sh
+npm install
+```
 
-Want to use it globally from any terminal?
+## Usage
 
-    npm install aretheyup -g
+```sh
+aretheyup google.com
+```
 
-Want to use it in your node app?
+## Run tests
 
-    npm install aretheyup 
+```sh
+npm run test
+```
 
-## How to Use?
-	aretheyup google.com
-    Are they up?
-    √ Yup
-    Domain: google.com
-    Port: 80
-    Response IP: 216.58.201.46
-    Response Time: 6 Miliseconds
-    Response Code: 301
+## Author
 
-## Have an issue?
+👤 **James Perkins**
 
-Create an issue on the github and I will take care of it
+* Twitter: [@james_r_perkins](https://twitter.com/james_r_perkins)
+* Github: [@perkinsjr](https://github.com/perkinsjr)
 
-## Feature request
+## 🤝 Contributing
 
-Create a feature request
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/perkinsjr/AreTheyUp/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+<a href="https://www.patreon.com/james_perkins">
+  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
+</a>
+
+## 📝 License
+
+Copyright © 2019 [James Perkins](https://github.com/perkinsjr).<br />
+This project is [MIT](https://github.com/perkinsjr/AreTheyUp/blob/master/LICENSE) licensed.
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
