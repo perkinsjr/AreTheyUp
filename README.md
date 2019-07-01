@@ -1,6 +1,6 @@
 <h1 align="center">Welcome to aretheyup 👋</h1>
 <p>
-  <img src="https://img.shields.io/badge/version-1.3.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/version-1.4.0-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/perkinsjr/AreTheyUp#readme">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" target="_blank" />
   </a>
@@ -22,7 +22,7 @@
 ## Install
 
 ```sh
-npm install
+npm install -g aretheyup
 ```
 
 ## Usage
