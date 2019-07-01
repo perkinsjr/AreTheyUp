@@ -1,18 +1,18 @@
-'use strict';
+"use strict";
 
-const got = require('got');
+const got = require("got");
 
-module.exports = url => {
+module.exports = (url) => {
 	return got(`http://isitup.org/${url}.json`, {
 		json: true,
 		headers: {
-			'user-agent': 'https://github.com/perkins/are-they-up'
+			"user-agent": "https://github.com/perkins/are-they-up"
 		}
-	}).then(res => {
+	}).then((res) => {
 		if (res.body.status_code === 3) {
-			return 'Check the domain, it seems to be invalid';
+			return "Check the domain, it seems to be invalid";
 		}
-			return res.body
+			return res.body;
 		}
 		
 	);
